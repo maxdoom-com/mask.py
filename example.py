@@ -16,3 +16,6 @@ m.buttons( yes="Yes", no="No" )
 screen.finish()
  
 print cmd, results
+
+# will print something like:
+# yes {'passwd1': 'value of entry 1', 'entry1': 'Value of the entry', 'list1': 'no', 'sel1': 'no', 'chk1': ['no']}
